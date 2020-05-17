@@ -23,10 +23,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 class WelcomeController {
 
-	@GetMapping("/")
-	public @ResponseBody
+    @GetMapping("/")
+    public @ResponseBody
     String welcome() {
-		return "welcome";
-	}
+        return "welcome";
+    }
 
 }
